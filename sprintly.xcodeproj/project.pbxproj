@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A392B20197F8478006560A1 /* SPRStatechart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A392B1F197F8478006560A1 /* SPRStatechart.m */; };
+		5A392B23197F8AE5006560A1 /* SPRLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A392B22197F8AE5006560A1 /* SPRLoginView.m */; };
+		5AA896501981AB4000AEEB51 /* SPRDashboardState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8964F1981AB4000AEEB51 /* SPRDashboardState.m */; };
+		5AA896551981CBF100AEEB51 /* SPRDashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA896541981CBF100AEEB51 /* SPRDashboardView.m */; };
+		5AA896581981CC3B00AEEB51 /* SPRDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA896571981CC3B00AEEB51 /* SPRDashboardViewController.m */; };
+		5AA8965C1981CD0200AEEB51 /* SPRInitializeState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8965B1981CD0200AEEB51 /* SPRInitializeState.m */; };
+		5AA896621981D5EB00AEEB51 /* TCBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA896611981D5EB00AEEB51 /* TCBViewController.m */; };
+		5AEBF50C1980B1130083E5B4 /* SPRRootContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEBF50B1980B1130083E5B4 /* SPRRootContainerViewController.m */; };
+		5AEBF5121980B1870083E5B4 /* SPRRootContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEBF5111980B1870083E5B4 /* SPRRootContainerView.m */; };
+		5AFAEF25197F44D100038B42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFAEF24197F44D100038B42 /* Cocoa.framework */; };
+		5AFAEF2F197F44D100038B42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AFAEF2D197F44D100038B42 /* InfoPlist.strings */; };
+		5AFAEF31197F44D100038B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAEF30197F44D100038B42 /* main.m */; };
+		5AFAEF35197F44D100038B42 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5AFAEF33197F44D100038B42 /* Credits.rtf */; };
+		5AFAEF38197F44D100038B42 /* SPRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAEF37197F44D100038B42 /* SPRAppDelegate.m */; };
+		5AFAEF3B197F44D100038B42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AFAEF39197F44D100038B42 /* MainMenu.xib */; };
+		5AFAEF3D197F44D100038B42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFAEF3C197F44D100038B42 /* Images.xcassets */; };
+		5AFAEF44197F44D100038B42 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFAEF43197F44D100038B42 /* XCTest.framework */; };
+		5AFAEF45197F44D100038B42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFAEF24197F44D100038B42 /* Cocoa.framework */; };
+		5AFAEF4D197F44D100038B42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AFAEF4B197F44D100038B42 /* InfoPlist.strings */; };
+		5AFAEF4F197F44D100038B42 /* sprintlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAEF4E197F44D100038B42 /* sprintlyTests.m */; };
+		5AFAEF5B197F4BD600038B42 /* SPRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAEF5A197F4BD600038B42 /* SPRLoginViewController.m */; };
+		5AFAEF5F197F4DA900038B42 /* SPRLoginState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAEF5E197F4DA900038B42 /* SPRLoginState.m */; };
+		5AFAEF64197F4E7200038B42 /* TCBState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAEF63197F4E7200038B42 /* TCBState.m */; };
+		5AFAEF69197F516400038B42 /* TCBStatechart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAEF68197F516400038B42 /* TCBStatechart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AFAEF46197F44D100038B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFAEF19197F44D100038B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFAEF20197F44D100038B42;
+			remoteInfo = sprintly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A392B1E197F8478006560A1 /* SPRStatechart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRStatechart.h; sourceTree = "<group>"; };
+		5A392B1F197F8478006560A1 /* SPRStatechart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRStatechart.m; sourceTree = "<group>"; };
+		5A392B21197F8AE5006560A1 /* SPRLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRLoginView.h; sourceTree = "<group>"; };
+		5A392B22197F8AE5006560A1 /* SPRLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRLoginView.m; sourceTree = "<group>"; };
+		5AA8964E1981AB4000AEEB51 /* SPRDashboardState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRDashboardState.h; sourceTree = "<group>"; };
+		5AA8964F1981AB4000AEEB51 /* SPRDashboardState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRDashboardState.m; sourceTree = "<group>"; };
+		5AA896531981CBF100AEEB51 /* SPRDashboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRDashboardView.h; sourceTree = "<group>"; };
+		5AA896541981CBF100AEEB51 /* SPRDashboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRDashboardView.m; sourceTree = "<group>"; };
+		5AA896561981CC3B00AEEB51 /* SPRDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRDashboardViewController.h; sourceTree = "<group>"; };
+		5AA896571981CC3B00AEEB51 /* SPRDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRDashboardViewController.m; sourceTree = "<group>"; };
+		5AA8965A1981CD0200AEEB51 /* SPRInitializeState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRInitializeState.h; sourceTree = "<group>"; };
+		5AA8965B1981CD0200AEEB51 /* SPRInitializeState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRInitializeState.m; sourceTree = "<group>"; };
+		5AA896601981D5EB00AEEB51 /* TCBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBViewController.h; sourceTree = "<group>"; };
+		5AA896611981D5EB00AEEB51 /* TCBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBViewController.m; sourceTree = "<group>"; };
+		5AEBF50A1980B1130083E5B4 /* SPRRootContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRRootContainerViewController.h; sourceTree = "<group>"; };
+		5AEBF50B1980B1130083E5B4 /* SPRRootContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRRootContainerViewController.m; sourceTree = "<group>"; };
+		5AEBF5101980B1870083E5B4 /* SPRRootContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRRootContainerView.h; sourceTree = "<group>"; };
+		5AEBF5111980B1870083E5B4 /* SPRRootContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRRootContainerView.m; sourceTree = "<group>"; };
+		5AFAEF21197F44D100038B42 /* sprintly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sprintly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFAEF24197F44D100038B42 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5AFAEF27197F44D100038B42 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5AFAEF28197F44D100038B42 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5AFAEF29197F44D100038B42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AFAEF2C197F44D100038B42 /* sprintly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sprintly-Info.plist"; sourceTree = "<group>"; };
+		5AFAEF2E197F44D100038B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AFAEF30197F44D100038B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AFAEF32197F44D100038B42 /* sprintly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sprintly-Prefix.pch"; sourceTree = "<group>"; };
+		5AFAEF34197F44D100038B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5AFAEF36197F44D100038B42 /* SPRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPRAppDelegate.h; sourceTree = "<group>"; };
+		5AFAEF37197F44D100038B42 /* SPRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPRAppDelegate.m; sourceTree = "<group>"; };
+		5AFAEF3A197F44D100038B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5AFAEF3C197F44D100038B42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AFAEF42197F44D100038B42 /* sprintlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sprintlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFAEF43197F44D100038B42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5AFAEF4A197F44D100038B42 /* sprintlyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sprintlyTests-Info.plist"; sourceTree = "<group>"; };
+		5AFAEF4C197F44D100038B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AFAEF4E197F44D100038B42 /* sprintlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sprintlyTests.m; sourceTree = "<group>"; };
+		5AFAEF59197F4BD600038B42 /* SPRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRLoginViewController.h; sourceTree = "<group>"; };
+		5AFAEF5A197F4BD600038B42 /* SPRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRLoginViewController.m; sourceTree = "<group>"; };
+		5AFAEF5D197F4DA900038B42 /* SPRLoginState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRLoginState.h; sourceTree = "<group>"; };
+		5AFAEF5E197F4DA900038B42 /* SPRLoginState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRLoginState.m; sourceTree = "<group>"; };
+		5AFAEF62197F4E7200038B42 /* TCBState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBState.h; sourceTree = "<group>"; };
+		5AFAEF63197F4E7200038B42 /* TCBState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBState.m; sourceTree = "<group>"; };
+		5AFAEF67197F516400038B42 /* TCBStatechart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBStatechart.h; sourceTree = "<group>"; };
+		5AFAEF68197F516400038B42 /* TCBStatechart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBStatechart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AFAEF1E197F44D100038B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFAEF25197F44D100038B42 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFAEF3F197F44D100038B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFAEF45197F44D100038B42 /* Cocoa.framework in Frameworks */,
+				5AFAEF44197F44D100038B42 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A392B1C197F8451006560A1 /* login state */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF5D197F4DA900038B42 /* SPRLoginState.h */,
+				5AFAEF5E197F4DA900038B42 /* SPRLoginState.m */,
+			);
+			name = "login state";
+			sourceTree = "<group>";
+		};
+		5A392B1D197F845E006560A1 /* statechart */ = {
+			isa = PBXGroup;
+			children = (
+				5A392B1E197F8478006560A1 /* SPRStatechart.h */,
+				5A392B1F197F8478006560A1 /* SPRStatechart.m */,
+				5AFAEF5C197F4D8900038B42 /* states */,
+			);
+			name = statechart;
+			sourceTree = "<group>";
+		};
+		5AA8964D1981AB1D00AEEB51 /* dashboard state */ = {
+			isa = PBXGroup;
+			children = (
+				5AA8964E1981AB4000AEEB51 /* SPRDashboardState.h */,
+				5AA8964F1981AB4000AEEB51 /* SPRDashboardState.m */,
+			);
+			name = "dashboard state";
+			sourceTree = "<group>";
+		};
+		5AA896511981CBB300AEEB51 /* dashboard view controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AA896561981CC3B00AEEB51 /* SPRDashboardViewController.h */,
+				5AA896571981CC3B00AEEB51 /* SPRDashboardViewController.m */,
+			);
+			name = "dashboard view controller";
+			sourceTree = "<group>";
+		};
+		5AA896521981CBCA00AEEB51 /* dashboard view */ = {
+			isa = PBXGroup;
+			children = (
+				5AA896531981CBF100AEEB51 /* SPRDashboardView.h */,
+				5AA896541981CBF100AEEB51 /* SPRDashboardView.m */,
+			);
+			name = "dashboard view";
+			sourceTree = "<group>";
+		};
+		5AA896591981CC7A00AEEB51 /* initialize state */ = {
+			isa = PBXGroup;
+			children = (
+				5AA8965A1981CD0200AEEB51 /* SPRInitializeState.h */,
+				5AA8965B1981CD0200AEEB51 /* SPRInitializeState.m */,
+			);
+			name = "initialize state";
+			sourceTree = "<group>";
+		};
+		5AA8965D1981D4D200AEEB51 /* TCB */ = {
+			isa = PBXGroup;
+			children = (
+				5AA8965E1981D59800AEEB51 /* uikit */,
+				5AFAEF61197F4DD400038B42 /* state machine */,
+			);
+			name = TCB;
+			sourceTree = "<group>";
+		};
+		5AA8965E1981D59800AEEB51 /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				5AA8965F1981D5B300AEEB51 /* view controller */,
+			);
+			name = uikit;
+			sourceTree = "<group>";
+		};
+		5AA8965F1981D5B300AEEB51 /* view controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AA896601981D5EB00AEEB51 /* TCBViewController.h */,
+				5AA896611981D5EB00AEEB51 /* TCBViewController.m */,
+			);
+			name = "view controller";
+			sourceTree = "<group>";
+		};
+		5AEBF5081980B0DC0083E5B4 /* login view controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF59197F4BD600038B42 /* SPRLoginViewController.h */,
+				5AFAEF5A197F4BD600038B42 /* SPRLoginViewController.m */,
+			);
+			name = "login view controller";
+			sourceTree = "<group>";
+		};
+		5AEBF5091980B0F10083E5B4 /* root container view controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AEBF50A1980B1130083E5B4 /* SPRRootContainerViewController.h */,
+				5AEBF50B1980B1130083E5B4 /* SPRRootContainerViewController.m */,
+			);
+			name = "root container view controller";
+			sourceTree = "<group>";
+		};
+		5AEBF50D1980B1640083E5B4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5AA896521981CBCA00AEEB51 /* dashboard view */,
+				5AEBF50F1980B1750083E5B4 /* root container view */,
+				5AEBF50E1980B16E0083E5B4 /* login view */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		5AEBF50E1980B16E0083E5B4 /* login view */ = {
+			isa = PBXGroup;
+			children = (
+				5A392B21197F8AE5006560A1 /* SPRLoginView.h */,
+				5A392B22197F8AE5006560A1 /* SPRLoginView.m */,
+			);
+			name = "login view";
+			sourceTree = "<group>";
+		};
+		5AEBF50F1980B1750083E5B4 /* root container view */ = {
+			isa = PBXGroup;
+			children = (
+				5AEBF5101980B1870083E5B4 /* SPRRootContainerView.h */,
+				5AEBF5111980B1870083E5B4 /* SPRRootContainerView.m */,
+			);
+			name = "root container view";
+			sourceTree = "<group>";
+		};
+		5AFAEF18197F44D100038B42 = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF2A197F44D100038B42 /* sprintly */,
+				5AFAEF48197F44D100038B42 /* sprintlyTests */,
+				5AFAEF23197F44D100038B42 /* Frameworks */,
+				5AFAEF22197F44D100038B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFAEF22197F44D100038B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF21197F44D100038B42 /* sprintly.app */,
+				5AFAEF42197F44D100038B42 /* sprintlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFAEF23197F44D100038B42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF24197F44D100038B42 /* Cocoa.framework */,
+				5AFAEF43197F44D100038B42 /* XCTest.framework */,
+				5AFAEF26197F44D100038B42 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AFAEF26197F44D100038B42 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF27197F44D100038B42 /* AppKit.framework */,
+				5AFAEF28197F44D100038B42 /* CoreData.framework */,
+				5AFAEF29197F44D100038B42 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5AFAEF2A197F44D100038B42 /* sprintly */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF60197F4DCC00038B42 /* framework */,
+				5A392B1D197F845E006560A1 /* statechart */,
+				5AFAEF58197F4B9900038B42 /* view controllers */,
+				5AEBF50D1980B1640083E5B4 /* views */,
+				5AFAEF36197F44D100038B42 /* SPRAppDelegate.h */,
+				5AFAEF37197F44D100038B42 /* SPRAppDelegate.m */,
+				5AFAEF39197F44D100038B42 /* MainMenu.xib */,
+				5AFAEF3C197F44D100038B42 /* Images.xcassets */,
+				5AFAEF2B197F44D100038B42 /* Supporting Files */,
+			);
+			path = sprintly;
+			sourceTree = "<group>";
+		};
+		5AFAEF2B197F44D100038B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF2C197F44D100038B42 /* sprintly-Info.plist */,
+				5AFAEF2D197F44D100038B42 /* InfoPlist.strings */,
+				5AFAEF30197F44D100038B42 /* main.m */,
+				5AFAEF32197F44D100038B42 /* sprintly-Prefix.pch */,
+				5AFAEF33197F44D100038B42 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AFAEF48197F44D100038B42 /* sprintlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF4E197F44D100038B42 /* sprintlyTests.m */,
+				5AFAEF49197F44D100038B42 /* Supporting Files */,
+			);
+			path = sprintlyTests;
+			sourceTree = "<group>";
+		};
+		5AFAEF49197F44D100038B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF4A197F44D100038B42 /* sprintlyTests-Info.plist */,
+				5AFAEF4B197F44D100038B42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AFAEF58197F4B9900038B42 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AA896511981CBB300AEEB51 /* dashboard view controller */,
+				5AEBF5081980B0DC0083E5B4 /* login view controller */,
+				5AEBF5091980B0F10083E5B4 /* root container view controller */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		5AFAEF5C197F4D8900038B42 /* states */ = {
+			isa = PBXGroup;
+			children = (
+				5AA896591981CC7A00AEEB51 /* initialize state */,
+				5AA8964D1981AB1D00AEEB51 /* dashboard state */,
+				5A392B1C197F8451006560A1 /* login state */,
+			);
+			name = states;
+			sourceTree = "<group>";
+		};
+		5AFAEF60197F4DCC00038B42 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				5AA8965D1981D4D200AEEB51 /* TCB */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		5AFAEF61197F4DD400038B42 /* state machine */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF65197F514E00038B42 /* statechart */,
+				5AFAEF66197F515400038B42 /* state */,
+			);
+			name = "state machine";
+			sourceTree = "<group>";
+		};
+		5AFAEF65197F514E00038B42 /* statechart */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF67197F516400038B42 /* TCBStatechart.h */,
+				5AFAEF68197F516400038B42 /* TCBStatechart.m */,
+			);
+			name = statechart;
+			sourceTree = "<group>";
+		};
+		5AFAEF66197F515400038B42 /* state */ = {
+			isa = PBXGroup;
+			children = (
+				5AFAEF62197F4E7200038B42 /* TCBState.h */,
+				5AFAEF63197F4E7200038B42 /* TCBState.m */,
+			);
+			name = state;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AFAEF20197F44D100038B42 /* sprintly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFAEF52197F44D100038B42 /* Build configuration list for PBXNativeTarget "sprintly" */;
+			buildPhases = (
+				5AFAEF1D197F44D100038B42 /* Sources */,
+				5AFAEF1E197F44D100038B42 /* Frameworks */,
+				5AFAEF1F197F44D100038B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sprintly;
+			productName = sprintly;
+			productReference = 5AFAEF21197F44D100038B42 /* sprintly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AFAEF41197F44D100038B42 /* sprintlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFAEF55197F44D100038B42 /* Build configuration list for PBXNativeTarget "sprintlyTests" */;
+			buildPhases = (
+				5AFAEF3E197F44D100038B42 /* Sources */,
+				5AFAEF3F197F44D100038B42 /* Frameworks */,
+				5AFAEF40197F44D100038B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFAEF47197F44D100038B42 /* PBXTargetDependency */,
+			);
+			name = sprintlyTests;
+			productName = sprintlyTests;
+			productReference = 5AFAEF42197F44D100038B42 /* sprintlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFAEF19197F44D100038B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "The Code Boutique";
+				TargetAttributes = {
+					5AFAEF41197F44D100038B42 = {
+						TestTargetID = 5AFAEF20197F44D100038B42;
+					};
+				};
+			};
+			buildConfigurationList = 5AFAEF1C197F44D100038B42 /* Build configuration list for PBXProject "sprintly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AFAEF18197F44D100038B42;
+			productRefGroup = 5AFAEF22197F44D100038B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AFAEF20197F44D100038B42 /* sprintly */,
+				5AFAEF41197F44D100038B42 /* sprintlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AFAEF1F197F44D100038B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFAEF2F197F44D100038B42 /* InfoPlist.strings in Resources */,
+				5AFAEF3D197F44D100038B42 /* Images.xcassets in Resources */,
+				5AFAEF35197F44D100038B42 /* Credits.rtf in Resources */,
+				5AFAEF3B197F44D100038B42 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFAEF40197F44D100038B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFAEF4D197F44D100038B42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AFAEF1D197F44D100038B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFAEF38197F44D100038B42 /* SPRAppDelegate.m in Sources */,
+				5AFAEF64197F4E7200038B42 /* TCBState.m in Sources */,
+				5AA896501981AB4000AEEB51 /* SPRDashboardState.m in Sources */,
+				5A392B23197F8AE5006560A1 /* SPRLoginView.m in Sources */,
+				5AFAEF5F197F4DA900038B42 /* SPRLoginState.m in Sources */,
+				5AA896551981CBF100AEEB51 /* SPRDashboardView.m in Sources */,
+				5A392B20197F8478006560A1 /* SPRStatechart.m in Sources */,
+				5AA8965C1981CD0200AEEB51 /* SPRInitializeState.m in Sources */,
+				5AFAEF31197F44D100038B42 /* main.m in Sources */,
+				5AA896621981D5EB00AEEB51 /* TCBViewController.m in Sources */,
+				5AEBF5121980B1870083E5B4 /* SPRRootContainerView.m in Sources */,
+				5AEBF50C1980B1130083E5B4 /* SPRRootContainerViewController.m in Sources */,
+				5AA896581981CC3B00AEEB51 /* SPRDashboardViewController.m in Sources */,
+				5AFAEF69197F516400038B42 /* TCBStatechart.m in Sources */,
+				5AFAEF5B197F4BD600038B42 /* SPRLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFAEF3E197F44D100038B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFAEF4F197F44D100038B42 /* sprintlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AFAEF47197F44D100038B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFAEF20197F44D100038B42 /* sprintly */;
+			targetProxy = 5AFAEF46197F44D100038B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AFAEF2D197F44D100038B42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFAEF2E197F44D100038B42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AFAEF33197F44D100038B42 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFAEF34197F44D100038B42 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5AFAEF39197F44D100038B42 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFAEF3A197F44D100038B42 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5AFAEF4B197F44D100038B42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFAEF4C197F44D100038B42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AFAEF50197F44D100038B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5AFAEF51197F44D100038B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5AFAEF53197F44D100038B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sprintly/sprintly-Prefix.pch";
+				INFOPLIST_FILE = "sprintly/sprintly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AFAEF54197F44D100038B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sprintly/sprintly-Prefix.pch";
+				INFOPLIST_FILE = "sprintly/sprintly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5AFAEF56197F44D100038B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sprintly.app/Contents/MacOS/sprintly";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sprintly/sprintly-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "sprintlyTests/sprintlyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5AFAEF57197F44D100038B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sprintly.app/Contents/MacOS/sprintly";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sprintly/sprintly-Prefix.pch";
+				INFOPLIST_FILE = "sprintlyTests/sprintlyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AFAEF1C197F44D100038B42 /* Build configuration list for PBXProject "sprintly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFAEF50197F44D100038B42 /* Debug */,
+				5AFAEF51197F44D100038B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFAEF52197F44D100038B42 /* Build configuration list for PBXNativeTarget "sprintly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFAEF53197F44D100038B42 /* Debug */,
+				5AFAEF54197F44D100038B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFAEF55197F44D100038B42 /* Build configuration list for PBXNativeTarget "sprintlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFAEF56197F44D100038B42 /* Debug */,
+				5AFAEF57197F44D100038B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AFAEF19197F44D100038B42 /* Project object */;
+}
